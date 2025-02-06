@@ -1,0 +1,67 @@
+# Django and Core Dependencies
+Django==4.2.9
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.1
+django-cors-headers==4.3.1
+django-filter==23.5
+
+# Authentication and Security
+PyJWT==2.8.0
+python-jose==3.3.0
+bcrypt==4.1.2
+
+# Database and ORM
+psycopg2-binary==2.9.9  # For PostgreSQL support
+dj-database-url==2.1.0
+
+# Additional Utilities
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# Development and Debugging
+ipython==8.19.0
+django-extensions==3.2.3
+
+# Testing
+pytest==7.4.4
+pytest-django==4.7.0
+coverage==7.4.0
+
+# Documentation
+drf-yasg==1.21.7  # Swagger/OpenAPI documentation
+
+# Performance and Monitoring
+celery==5.3.6
+redis==5.0.1
+django-redis==5.4.0
+
+# Image and File Handling
+Pillow==10.2.0
+
+# Email and Notifications
+django-templated-mail==1.1.1
+
+# Deployment and Production
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Optional: Advanced Features
+drf-extensions==0.7.1
+django-model-utils==4.3.1
+
+# Security Extras
+python-dotenv==1.0.0
+cryptography==42.0.2
+
+# Internationalization
+Babel==2.14.0
+
+# Logging and Monitoring
+sentry-sdk==1.40.6
+
+# Pagination and Advanced Filtering
+drf-flex-fields==1.0.0
+
+# Type Checking (optional)
+mypy==1.8.0
+django-stubs==4.2.7
